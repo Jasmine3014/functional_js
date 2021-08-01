@@ -1,0 +1,1 @@
+//callback function works like function ,,,argument like another argument
