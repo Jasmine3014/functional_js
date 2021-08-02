@@ -22,7 +22,8 @@ a();
 //another example
 function greating(msg){
   return function(name){
-  console.log(msg+" "+name)
+  console.log(msg+" "+name)//anonymos type return
+  
 }   
 }
 var good = greating("good morning")
