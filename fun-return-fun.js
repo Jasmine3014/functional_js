@@ -18,3 +18,18 @@ return child;
 }
 var a = host();
 a();
+
+//another example
+function greating(msg){
+  return function(name){
+  console.log(msg+" "+name)
+}   
+}
+var good = greating("good morning")
+var hello = greating("hello morning")
+
+good('jasmine');
+hello('tripti');
+
+
+
