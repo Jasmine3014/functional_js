@@ -11,3 +11,12 @@ return a-b;//accesending
 }
 );
 console.log(arr);
+
+//another example
+var people =[
+    {name:'jasmine', age:22},
+    {name:'yasmine', age:20},
+    {name:'runa', age:21}]
+people.sort(function(a,b){
+    return b.age-a.age })
+console.log(people)
